@@ -3,12 +3,12 @@ import pandas as pd
 
 st.set_page_config(page_title="Historical UFC Rax", page_icon="🥊", layout="wide", initial_sidebar_state="collapsed")
 
-hide_decoration_bar_style = '''
-    <style>
-        header {visibility: hidden;}
-    </style>
-'''
-st.markdown(hide_decoration_bar_style, unsafe_allow_html=True)
+# hide_decoration_bar_style = '''
+#     <style>
+#         header {visibility: hidden;}
+#     </style>
+# '''
+# st.markdown(hide_decoration_bar_style, unsafe_allow_html=True)
 
 st.title("Historical UFC Rax")
 st.write("Click on 'more data' for RAX calculation. Displays top 30 but data exists for 2405 fighters.")
