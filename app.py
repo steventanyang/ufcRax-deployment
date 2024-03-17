@@ -12,10 +12,12 @@ st.markdown(hide_decoration_bar_style, unsafe_allow_html=True)
 
 st.title("Historical UFC Rax")
 st.write("Click on 'more data' for RAX calculation. Displays top 30 but data exists for 2405 fighters.")
+st.write("Updates: ")
+st.write("- March 17th: Fix that adds older matches")
 st.write("Currently working on adding: ")
-st.write("- historical pride fights")
 st.write("- tags for retired/active fighters")
 st.write("- num of player card purchases on real")
+st.write("- fight dates")
 st.write("Made by @yangsl")
 st.markdown("""<br><br>""", unsafe_allow_html=True)
 
