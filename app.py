@@ -21,6 +21,17 @@ st.write("- fight dates")
 st.write("Made by @yangsl")
 st.markdown("""<br><br>""", unsafe_allow_html=True)
 
+st.write("Displays yearly earnings assuming no OTD rax cap.")
+st.write("Common : 1500")
+st.write("Uncommon : 2500")
+st.write("Rare : 4000")
+st.write("Epic : 6000")
+st.write("Legendary : 12000")
+st.write("Mystic : 24000")
+st.write("Iconic : Unlimited")
+st.write("The cap doesn't reset. Once you hit it, you need to level up your card to increase the cap.")
+st.markdown("""<br><br>""", unsafe_allow_html=True)
+
 df = pd.read_csv("final_values.csv")
 
 
@@ -39,8 +50,6 @@ with right_column :
 st.markdown("""<br><br>""", unsafe_allow_html=True)
 
 reset_button = st.button("Reset All Multipliers")
-
-
 
 def reset_multipliers():
     for key in st.session_state.keys():
