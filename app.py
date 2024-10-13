@@ -15,6 +15,7 @@ st.write("Click on 'more data' for RAX calculation. Displays top 30 but data exi
 st.write("Updates: ")
 st.write("- March 30th: losses were being subtrated from total before so now that's fixed + losses and no contests are only 10 rax now")
 st.write("- June 8th: lowkey forgot about this lol. I'll look to update stuff once ufc system is reworked")
+st.write("- October 13th: updated fights - also I'm going to add a column that shows # of owners soon")
 st.write("Made by @yangsl")
 st.markdown("""<br><br>""", unsafe_allow_html=True)
 
