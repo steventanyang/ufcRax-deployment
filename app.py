@@ -39,7 +39,7 @@ with left_column:
 
     search_query = st.text_input("Search by fighter name:", "")
 
-    num_rows_to_display = st.selectbox("Number of rows to display:", options=[10, 20, 30, 40, 50, 100], index=2)
+    num_rows_to_display = st.selectbox("Number of rows to display:", options=[10, 20, 30, 40, 50, 100, 200, 300], index=2)
 
 with right_column :
         
